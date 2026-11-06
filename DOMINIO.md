@@ -50,7 +50,7 @@ Todo push na `main` publica em produção automaticamente; as outras branches ge
 
 ## Antes de anunciar no Google Ads
 
-- `src/lib/empresa.ts`: empresa já preenchida (SULMASTER INTERMEDIACAO DE NEGOCIOS LTDA · SHOP DIG · CNPJ 37.974.261/0001-12). Falta o e-mail de contato (hoje `[e-mail de contato]`) e, se quiser, o endereço do cartão CNPJ. Os dois aparecem no rodapé e nas páginas legais.
+- `src/lib/empresa.ts`: empresa já preenchida (SULMASTER INTERMEDIACAO DE NEGOCIOS LTDA · SHOP DIG · CNPJ 37.974.261/0001-12). E-mail de contato: suporte@oradardosachados.com. Falta só, se quiser, o endereço do cartão CNPJ (aparece no rodapé e nas páginas legais).
 - `src/config.ts`: links dos grupos de WhatsApp (`LINKS_WHATSAPP`) e do Telegram (`TELEGRAM`).
 - Vercel → *Environment Variables* (Production): `NEXT_PUBLIC_GADS_ID` e `NEXT_PUBLIC_GADS_LABEL`
   (veja `.env.example`). A tag do Google só carrega com o ID e começa com consentimento negado

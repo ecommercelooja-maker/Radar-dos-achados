@@ -8,8 +8,8 @@ export const CNPJ = "37.974.261/0001-12";
 export const ENDERECO = "";
 // ", endereço" pronto para colar depois do CNPJ (vazio quando não há endereço).
 export const ENDERECO_SUFIXO = ENDERECO ? `, ${ENDERECO}` : "";
-// TODO: e-mail de contato do Radar dos Achados (aparece no rodapé e nas páginas legais).
-export const EMAIL_CONTATO = "[e-mail de contato]";
+// E-mail de contato (aparece no rodapé e nas páginas legais).
+export const EMAIL_CONTATO = "suporte@oradardosachados.com";
 
 // Linha exibida no fim de cada página legal.
 export const LINHA_EMPRESA = `${RAZAO_SOCIAL} (${NOME_FANTASIA}) · CNPJ ${CNPJ}${ENDERECO ? ` · ${ENDERECO}` : ""} · Dúvidas: ${EMAIL_CONTATO}`;
