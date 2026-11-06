@@ -1,7 +1,7 @@
 import { CtaFixa, Cookies, Efeitos } from "@/components/Cliente";
 import { IconeTelegram, IconeWhats, Logo } from "@/components/Marca";
 import { AVISO_TOPO, LOJAS, MARCA, TELEGRAM, TEXTO_AFILIADO_RODAPE } from "@/config";
-import { CNPJ, EMAIL_CONTATO, ENDERECO, RAZAO_SOCIAL } from "@/lib/empresa";
+import { CNPJ, EMAIL_CONTATO, ENDERECO, NOME_FANTASIA, RAZAO_SOCIAL } from "@/lib/empresa";
 
 // Os botões passam por /g/, que redireciona para o grupo e dispara a conversão (veja Cliente.tsx).
 export const LINK_WHATSAPP = "/g/achados";
@@ -98,7 +98,7 @@ export function Rodape({ home = false }: { home?: boolean }) {
       <div className="wrap rodape-base">
         <p className="rodape-afiliado">{TEXTO_AFILIADO_RODAPE}</p>
         <p>
-          {RAZAO_SOCIAL} · CNPJ {CNPJ}
+          {RAZAO_SOCIAL} · Nome fantasia: {NOME_FANTASIA} · CNPJ {CNPJ}
           {ENDERECO && ` · ${ENDERECO}`}
         </p>
         <p>
